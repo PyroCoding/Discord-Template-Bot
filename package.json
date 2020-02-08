@@ -1,0 +1,30 @@
+{
+  "name": "Tobii",
+  "version": "0.0.1",
+  "description": "Tobii Discord Bot is your all in one bot for server managment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "common-tags": "^1.8.0",
+    "crypto": "^1.0.1",
+    "discord.js": "^11.5.1",
+    "edit-json-file": "^1.2.1",
+    "express": "^4.16.4",
+    "mathjs": "^6.0.3",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "node-superfetch": "^0.1.9",
+    "path": "^0.12.7",
+    "random-js": "^2.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT"
+}

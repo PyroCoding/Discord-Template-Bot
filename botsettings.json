@@ -1,0 +1,9 @@
+{
+  "_comment": "Prefix is the command the bot listens for, authorizedUsers are alloted any command without needing a rank at all.",
+  
+  "prefix": "",
+  
+  "authorizedUsers": [
+  ""]
+
+} 
