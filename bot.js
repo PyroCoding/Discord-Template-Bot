@@ -43,7 +43,7 @@ bot.on('ready', async () => {
   let serveramount =  'Currenly connected to: ' + bot.guilds.size;
   bot.guilds.size <= 1 ? console.log(serveramount + ' server.') : console.log(serveramount + ' servers.');
     bot.user.setStatus('available');
-    bot.user.setPresence({game: {name: 'Coding @ Heliios'}});
+    bot.user.setPresence({game: {name: 'Change Me'}}); // IMPORTANT   IMPORTANT   IMPORTANT   IMPORTANT   IMPORTANT   IMPORTANT   
   bot.guilds.forEach((server) => {
     
     console.log(`Server Name: ${server.name} | Server Id: ${server.id} | Members: ${server.members.filter(member => !member.user.bot).size} | Owner: ${server.owner.user.username}#${server.owner.user.discriminator}`);
